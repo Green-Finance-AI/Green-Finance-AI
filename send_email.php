@@ -10,7 +10,7 @@ require 'vendor/PHPMailer-6.9.3/SMTP.php';
 require 'vendor/PHPMailer-6.9.3/Exception.php';
 
 // Load configuration securely from outside public_html
-$config = include(__DIR__ . '/../config.php'); // Adjust the path as needed
+$config = include(__DIR__ . '/config.php'); // Adjust the path as needed
 
 // Set the response header to JSON
 header('Content-Type: application/json');
