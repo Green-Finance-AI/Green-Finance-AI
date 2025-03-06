@@ -105,15 +105,8 @@ if($_POST)
             $user_Email = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
         }
     }
-    if(isset($_POST["userPhone"])){
-        if(!isset($_POST["userPhone"]))
-        {
-            $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
-            die($output);
-        }
-        else {
-            $user_Phone = $_POST["userPhone"];
-        }
+    if(!empty($_POST["userPhone"])) {
+        $user_Phone = $_POST["userPhone"];
     }
     if(isset($_POST["userSubject"])) {
         if(!isset($_POST["userSubject"]))
