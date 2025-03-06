@@ -14,7 +14,7 @@ if($_POST)
 
     $mail = new PHPMailer();
 
-    $your_email = "alice.lepissier@gmail.com";
+    $your_email = "alice@greenfinanceai.com";
 
 
     //check if its an ajax request, exit if not
@@ -105,6 +105,7 @@ if($_POST)
             $user_Email = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
         }
     }
+    $user_Phone = ''; // Initialize as an empty string
     if(!empty($_POST["userPhone"])) {
         $user_Phone = $_POST["userPhone"];
     }
