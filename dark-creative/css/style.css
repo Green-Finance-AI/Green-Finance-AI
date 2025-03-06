@@ -40,11 +40,13 @@
     Google font
 ====================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap'); */
 
-.main-font{font-family: 'Montserrat', sans-serif;}
-.alt-font{font-family: 'Source Sans Pro', sans-serif;}
+/* .main-font{font-family: 'Montserrat', sans-serif;}
+.alt-font{font-family: 'Source Sans Pro', sans-serif;} */
+.main-font{font-family: 'Handel Gothic', sans-serif;}
+.alt-font{font-family: 'Gotham Black', sans-serif;}
 
 /* ===================================
     Scrollbar
@@ -134,13 +136,16 @@ a.image{
     General
 ====================================== */
 
-body {font-family: 'Source Sans Pro', sans-serif; font-size: 16px; color: #ffffff; background-color: #23262d; font-weight:normal; line-height:25px; width: 100%; overflow-x: hidden;}
-h1, h2, h3, h4, h5 {line-height: 1.2; font-weight: 400; font-family: 'Montserrat', sans-serif;}
+/* body {font-family: 'Source Sans Pro', sans-serif; font-size: 16px; color: #ffffff; background-color: #23262d; font-weight:normal; line-height:25px; width: 100%; overflow-x: hidden;} */
+body {font-family: 'Gotham', sans-serif; font-size: 16px; color: #ffffff; background-color: #23262d; font-weight:normal; line-height:25px; width: 100%; overflow-x: hidden;}
+/* h1, h2, h3, h4, h5 {line-height: 1.2; font-weight: 400; font-family: 'Montserrat', sans-serif;} */
+h1, h2, h3, h4, h5 {line-height: 1.2; font-weight: 400; font-family: 'Handel Gothic', sans-serif;}
 a, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;overflow: hidden;}
 a {color:inherit;text-decoration: none;}
 .btn.focus, .btn:focus{-webkit-box-shadow: none;box-shadow: none;}
-p{margin-bottom: 0 !important; font-family: 'Source Sans Pro', sans-serif;}
+/* p{margin-bottom: 0 !important; font-family: 'Source Sans Pro', sans-serif;} */
+p{margin-bottom: 0 !important; font-family: 'Gotham', sans-serif;}
 .fa, .far, .fas{display: inline;}
 li{list-style: none;text-decoration: none;}
 .hidden{display: none;}
@@ -165,7 +170,9 @@ section{padding: 7.5rem 0;}
 .opacity-9{opacity: .9;}
 
 /* button */
-.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 1; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Montserrat', sans-serif; font-weight: bold; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
+/* .btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 1; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Montserrat', sans-serif; font-weight: bold; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;} */
+.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 1; display:inline-block; font-size: 15px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; width: auto;font-family: 'Gotham Black', sans-serif; font-weight: 900; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
+
 
 /* Transparent button */
 .btn.btn-trans {background: transparent; border-color: #ffffff; color: #ffffff;}
@@ -203,7 +210,8 @@ section{padding: 7.5rem 0;}
 .heading-area .sub-heading {
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Handel Gothic', sans-serif;
 }
 
 .heading-area .heading{
@@ -211,7 +219,8 @@ section{padding: 7.5rem 0;}
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Handel Gothic', sans-serif;
 }
 
 .heading-area .text {
@@ -244,7 +253,8 @@ header{
     text-align: center;
     padding: 1.9rem 2.0rem;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Gotham Black', sans-serif;
 }
 
 .nav-box-round .navbar-nav .nav-link{
@@ -775,14 +785,16 @@ header{
     font-size: 36px;
     line-height: 1.2;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Handel Gothic', sans-serif;
 }
 
 .slider-area h2 {
     font-size: 60px;
     line-height: 1.2;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Handel Gothic', sans-serif;
 }
 
 /*.slider-area .btn.btn-expand {*/
@@ -836,7 +848,8 @@ header{
     opacity: 0.7;
     font-size: 16px;
     margin-bottom: 1.1rem;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: 'Handel Gothic', sans-serif;
 }
 
 .about .main-title h2 {
@@ -859,7 +872,8 @@ header{
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0.5px;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .about .about-img-small {
@@ -874,7 +888,8 @@ header{
     line-height: 30px;
     opacity: 0.7;
     letter-spacing: 0.5px;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .about ul li:before{
@@ -1273,8 +1288,9 @@ figure.about-image.hover .curl {
 }
 
 .team-sec .main-title h5 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-family: 'Gotham', sans-serif;
+    /* font-weight: 400; */
     margin-bottom: 1.1rem;
     color: #212622;
 }
@@ -1597,7 +1613,8 @@ figure.about-image.hover .curl {
     font-size: 16px;
     color: #ffffff;
     opacity: .7;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 /* ===================================
@@ -1633,7 +1650,8 @@ figure.about-image.hover .curl {
     opacity: .7;
     width: 88%;
     margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .testimonial-tittle h4 {
@@ -1678,7 +1696,8 @@ figure.about-image.hover .curl {
     opacity: .7;
     line-height: 1.4;
     font-weight: normal;
-    font-family: 'Source Sans Pro' , sans-serif;
+    /* font-family: 'Source Sans Pro' , sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .pricing .actual_price{
@@ -1715,7 +1734,8 @@ figure.about-image.hover .curl {
     font-size: 16px;
     opacity: .7;
     font-weight: normal;
-    font-family: 'Source Sans Pro' , sans-serif;
+    /* font-family: 'Source Sans Pro' , sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .pricing .btn-margin{
@@ -1781,7 +1801,8 @@ figure.about-image.hover .curl {
     opacity: .7;
     padding: 30px 0 35px 0;
     font-weight: normal;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .blog .left-text {
@@ -1828,7 +1849,8 @@ figure.about-image.hover .curl {
     font-size: 16px;
     opacity: .7;
     font-weight: normal;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .contact .sub-heading {
@@ -2196,7 +2218,8 @@ figure.about-image.hover .curl {
     font-size: 16px;
     opacity: 0.7;
     font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Gotham', sans-serif;
 }
 
 .standalone-detail{

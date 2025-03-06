@@ -1,39 +1,29 @@
 /*-- Use For Custom Styling --*/
 @charset "UTF-8";
 
-/* Custom Font Faces */
 @font-face {
     font-family: 'Handel Gothic';
-    src: url('fonts/HandelGothicBT-Regular.woff2') format('woff2');
+    src: url('../fonts/HandelGothicBT-Regular.woff2') format('woff2'),
+        url('../fonts/HandelGothicBT-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Book';
-    src: url('fonts/Gotham-Book.woff2') format('woff2');
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Gotham Black';
-    src: url('fonts/Gotham-Black.woff2') format('woff2');
-    font-weight: normal;
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
-}
-
-/* Override Styles for Custom Fonts */
-body {
-    font-family: 'Gotham Book', Arial, sans-serif;
-}
-
-.title {
-    font-family: 'Handel Gothic', Arial, sans-serif;
-    font-weight: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Gotham Black', Arial, sans-serif;
-    font-weight: normal;
+    font-display: swap;
 }
