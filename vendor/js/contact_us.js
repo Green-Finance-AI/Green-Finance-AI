@@ -12,9 +12,18 @@ $(".contact_btn").on('click', function () {
 
     var str = $('#contact-form-data').serializeArray();
 
-    $('#contact-form-data input').each(function() {
-        if(!$(this).val()){
-            // alert('Some fields are empty');
+    // $('#contact-form-data input').each(function() {
+    //     var inputId = $(this).attr('id');
+    //     // Exclude the phone field from validation
+    //     if (!$(this).val() && inputId !== 'phone') {
+    //         proceed = "false";
+    //     }
+    // });
+
+    // Validate only specific required fields
+    var requiredFields = ['first_name', 'last_name', 'email'];
+    requiredFields.forEach(function(fieldId) {
+        if (!$('#' + fieldId).val()) {
             proceed = "false";
         }
     });
