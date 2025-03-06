@@ -27,3 +27,106 @@
     font-style: normal;
     font-display: swap;
 }
+
+/* ===================================
+   Banner Section
+====================================== */
+
+#particles-js {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #00b7ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3EDB70, #00b7ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3EDB70, #00b7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slider-area{
+    padding-top: 120px;
+    position: absolute;
+}
+
+/* ===================================
+   Media Queries
+====================================== */
+
+@media (max-width: 1600px) and (min-width: 1280px) {
+    #particles-js {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1280px) {
+    .slider-area {
+        padding-top: 0;
+    }
+    /* .slider-image img {
+        width: 70%;
+    } */
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    /* Banner */
+    .slider-area {
+        position: relative;
+    }
+    /* .slider-image img {
+        top: -65px;
+    } */
+    #particles-js {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+    /* Banner */
+    .slider-area {
+        display: block;
+        height: auto;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .slider-area .content-margin {
+        margin: 0;
+    }
+    /* .slider-image img {
+        top: 0;
+    }
+    .slider-image {
+        margin: 0;
+        top: 0;
+    } */
+    #particles-js {
+        display: block;
+    }
+}
+
+   @media screen and (max-width: 767px) {
+    /* Banner */
+    .slider-area {
+        display: block;
+        height: auto;
+        position: relative;
+        padding-top: 75px;
+    }
+    /* .slider-image img {
+        top: 30px;
+    } */
+    .slider-area .content-margin {
+        order: 2;
+    }
+    .slider-area .content-margin {
+        padding-top: 100px;
+        margin-bottom: 0;
+    }
+    /* .slider-image {
+        margin: 0;
+        top: 0;
+    } */
+    #particles-js {
+        display: block;
+    } 
+}
