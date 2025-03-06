@@ -26,6 +26,8 @@
     <link href="dark-creative/css/custom.css" rel="stylesheet">
     <!-- Custom fonts -->
     <!-- <link href="dark-creative/fonts/stylesheet.css" rel="stylesheet"> -->
+    <!-- SweetAlert2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -773,7 +775,7 @@
         </div>
 
         <!--contact us-->
-        <form class="contact-form" id="contact-form-data">
+        <form class="contact-form" id="contact-form-data" method="POST">
             <div class="row wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".5s">
 
                 <div class="col-sm-12" id="result"></div>
@@ -804,7 +806,10 @@
                     </div>
                 </div>
                 <div class="col-sm-12">
-                    <button type="button" class="btn contact_btn btn-large btn-yellow btn-rounded mt-4" id="submit_btn">Contact Now</button>
+                    <button type="submit" class="btn contact_btn btn-large btn-yellow btn-rounded mt-4" id="submit_btn">
+                        <i class="d-none fas fa-spinner fa-spin"></i>
+                        Contact Now
+                    </button>
                 </div>
             </div>
         </form>
@@ -854,6 +859,9 @@
 <!-- Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
 <script src="dark-creative/js/map.js"></script>
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- CUSTOM JS -->
 <script src="vendor/js/contact_us.js"></script>
