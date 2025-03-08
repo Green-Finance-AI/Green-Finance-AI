@@ -1,32 +1,12 @@
 /*-- Use For Custom Styling --*/
-@charset "UTF-8";
+@import url('../fonts/stylesheet.css');
 
-@font-face {
-    font-family: 'Handel Gothic';
-    src: url('../fonts/HandelGothicBT-Regular.woff2') format('woff2'),
-        url('../fonts/HandelGothicBT-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+/* ===================================
+   Fonts
+====================================== */
+.main-font{font-family: 'HandelGothicBT', sans-serif;}
+.alt-font{font-family: 'GothamSSm', sans-serif;}
 
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
-        url('../fonts/Gotham-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gotham Black';
-    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
-        url('../fonts/Gotham-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
 
 /* ===================================
    Banner Section
