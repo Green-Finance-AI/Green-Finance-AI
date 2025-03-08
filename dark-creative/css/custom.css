@@ -121,3 +121,13 @@
     }
 }
 
+/* Gradient with visible purple/blue highlight mirroring the logo gradient */
+.fixed-nav-on-scroll, .quarter-circle {
+    background: linear-gradient(135deg, #7a67ee, #32ff90, #1abc6e);
+    box-shadow: 0 0 12px rgba(50, 255, 144, 0.7), 0 0 20px rgba(106, 90, 205, 0.4);
+}
+
+.fixed-nav-on-scroll:hover, .quarter-circle:hover {
+    background: linear-gradient(135deg, #8a76ff, #45ffaa, #1ed873);
+    box-shadow: 0 0 15px rgba(69, 255, 170, 0.8), 0 0 25px rgba(123, 104, 238, 0.5);
+}
