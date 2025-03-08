@@ -90,4 +90,34 @@
     font-family: 'GothamSSm Narrow';
 }
 
+/* Responsive Typography for GREEN FINANCE AI */
+@media (max-width: 1200px) {
+    .slider-area h2 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-area h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-area h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-area h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+}
 
