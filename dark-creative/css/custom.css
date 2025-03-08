@@ -131,3 +131,6 @@
     background: linear-gradient(135deg, #8a76ff, #45ffaa, #1ed873);
     box-shadow: 0 0 15px rgba(69, 255, 170, 0.8), 0 0 25px rgba(123, 104, 238, 0.5);
 }
+.btn {
+    border-radius: 10px; /* Same border-radius as the price cards */
+}
