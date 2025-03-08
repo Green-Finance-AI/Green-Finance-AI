@@ -24,62 +24,6 @@
     position: absolute;
 }
 
-/* Media queries */
-
-@media (max-width: 1600px) and (min-width: 1280px) {
-    #particles-js {
-        height: 100vh;
-    }
-}
-@media (max-width: 1400px) and (min-width: 1280px) {
-    .slider-area {
-        padding-top: 0;
-    }
-}
-@media (max-width: 1200px) and (min-width: 992px) {
-    /* Banner */
-    .slider-area {
-        position: relative;
-    }
-    #particles-js {
-        display: block;
-    }
-}
-@media screen and (max-width: 991px) and (min-width: 768px){
-    /* Banner */
-    .slider-area {
-        display: block;
-        height: auto;
-        position: relative;
-        padding-top: 80px;
-        padding-bottom: 60px;
-    }
-    .slider-area .content-margin {
-        margin: 0;
-    }
-    #particles-js {
-        display: block;
-    }
-}
-   @media screen and (max-width: 767px) {
-    /* Banner */
-    .slider-area {
-        display: block;
-        height: auto;
-        position: relative;
-        padding-top: 75px;
-    }
-    .slider-area .content-margin {
-        order: 2;
-    }
-    .slider-area .content-margin {
-        padding-top: 100px;
-        margin-bottom: 0;
-    }
-    #particles-js {
-        display: block;
-    } 
-}
 /* Icon Text Hover */
 .github-text-hvr:hover{color:#8E47FE !important;}
 .docker-text-hvr:hover{color:#1D63ED !important;}
@@ -92,6 +36,8 @@
 .slider-area h2 {
     font-weight: normal;
     font-family: 'HandelGothicBT', sans-serif;
+    font-size: 120px;
+    line-height: 1;
 }
 .navbar-simple .navbar-nav .nav-link {
     font-weight: 700;
@@ -143,4 +89,74 @@
 }
 .footer .company-about {
     font-family: 'GothamSSm Narrow';
+}
+
+
+/* ===================================
+   Media queries
+====================================== */
+@media (max-width: 1600px) and (min-width: 1280px) {
+    #particles-js {
+        height: 100vh;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1280px) {
+    .slider-area {
+        padding-top: 0;
+        height: auto;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    /* Banner */
+    .slider-area {
+        position: relative;
+        height: auto;
+    }
+    .slider-area h2 {
+        font-size: 100px;
+    }
+    #particles-js {
+        display: block;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /* Banner */
+    .slider-area {
+        display: block;
+        height: auto;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .slider-area h2 {
+        font-size: 80px;
+    }
+    .slider-area .content-margin {
+        margin: 0;
+    }
+    #particles-js {
+        display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* Banner */
+    .slider-area {
+        display: block;
+        height: auto;
+        position: relative;
+        padding-top: 75px;
+    }
+    .slider-area h2 {
+        font-size: 50px;
+    }
+    .slider-area .content-margin {
+        order: 2;
+    }
+    .slider-area .content-margin {
+        padding-top: 100px;
+        margin-bottom: 0;
+    }
+    #particles-js {
+        display: block;
+    } 
 }
