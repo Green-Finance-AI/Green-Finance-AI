@@ -124,6 +124,7 @@
 .pricing .actual_price {
     font-weight: bold;
     font-family: 'GothamSSm' , sans-serif;
+    line-height: 1;
 }
 .pricing .actual_price .dollar{
     font-family: 'GothamSSm XNarrow' , sans-serif;
@@ -134,6 +135,7 @@
 }
 .pricing .actual_price .small_font {
     font-family: 'GothamSSm XNarrow', sans-serif;
+    line-height: 1;
 }
 .footer .company-about {
     font-family: 'GothamSSm Narrow';
