@@ -80,7 +80,11 @@
         display: block;
     } 
 }
-
+/* Icon Text Hover */
+.github-text-hvr:hover{color:#8E47FE !important;}
+.docker-text-hvr:hover{color:#1D63ED !important;}
+.envelope-text-hvr:hover{color:#1ED873 !important;}
+.linkedin-text-hvr:hover{color:#0A66C2 !important;}
 
 /* ===================================
    Typography changes
