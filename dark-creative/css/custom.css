@@ -85,6 +85,10 @@
 /* ===================================
    Typography changes
 ====================================== */
+.slider-area h2 {
+    font-weight: normal;
+    font-family: 'HandelGothicBT', sans-serif;
+}
 .navbar-simple .navbar-nav .nav-link {
     font-weight: 700;
     font-family: 'GothamSSm', sans-serif;
@@ -96,6 +100,9 @@
 .side-nav .navbar-nav .nav-link {
     font-weight: 200;
     font-family: 'GothamSSm' sans-serif;
+}
+.heading-area .heading {
+    font-family: 'HandelGothic', sans-serif;
 }
 .heading-area .sub-heading {
     font-weight: 200;
@@ -119,4 +126,7 @@
 }
 .pricing .actual_price .small_font {
     font-family: GothamSSm XNarrow, sans-serif;
+}
+.footer .company-about {
+    font-family: 'GothamSSm Narrow';
 }
