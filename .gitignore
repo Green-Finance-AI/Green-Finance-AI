@@ -1,4 +1,4 @@
 config.php
 .well-known/
-ssh_into_cpanel.bat
+ssh-into-cpanel.bat
 *.code-workspace
