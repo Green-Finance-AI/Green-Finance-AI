@@ -23,7 +23,7 @@ jobs:
           git clone https://$PAT_TOKEN@github.com/Green-Finance-AI/Training-Platform.git target-repo
           
           # Copy the custom.css file to the target repo
-          cp dark-creative/css/.css target-repo/css/custom.css
+          cp dark-creative/css/custom.css target-repo/css/custom.css
 
           cd target-repo
           git add css/custom.css
