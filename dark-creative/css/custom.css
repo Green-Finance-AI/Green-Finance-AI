@@ -145,3 +145,19 @@
 .btn {
     border-radius: 10px; /* Same border-radius as the price cards */
 }
+
+.fixed-nav-on-scroll, .quarter-circle.btn_sideNavClose {
+    height: 80px;
+    width: 80px;
+}
+.fixed-nav-on-scroll .fixed-icon-scroll {
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: -10%;
+}
+.menu_bars2.active {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
