@@ -1,0 +1,31 @@
+name: Sync custom.css to another Training Platform landing page
+
+on:
+  push:
+    paths:
+      - "dark-creative/css/custom.css"
+
+jobs:
+  sync-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v3
+
+      - name: Copy custom.css to the target repo
+        env:
+          PAT_TOKEN: ${{ secrets.ORG_PAT_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Clone the target repository
+          git clone https://$PAT_TOKEN@github.com/Green-Finance-AI/Training-Platform.git target-repo
+          
+          # Copy the custom.css file to the target repo
+          cp dark-creative/css/.css target-repo/css/custom.css
+
+          cd target-repo
+          git add css/custom.css
+          git commit -m "Sync custom.css from Green Finance AI repo"
+          git push
