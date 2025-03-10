@@ -14,7 +14,7 @@ jobs:
 
       - name: Copy custom.css to the target repo
         env:
-          PAT_TOKEN: ${{ secrets.ORG_PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.SYNC_CSS_GFAI }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
