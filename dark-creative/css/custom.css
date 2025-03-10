@@ -53,7 +53,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 .side-nav .navbar-nav .nav-link {
     font-weight: 200;
-    font-family: 'GothamSSm' sans-serif;
+    font-family: 'GothamSSm' sans-serif !important;
 }
 .heading-area .heading {
     font-weight: normal;
@@ -124,7 +124,12 @@ p{font-family: 'GothamSSm', sans-serif;}
 .footer .company-about {
     font-family: 'GothamSSm Narrow';
 }
-
+.footer .footer-social a {
+    font-size: 16px;
+}
+.footer {
+    padding-bottom: 2.5rem;
+}
 /* Responsive Typography for GREEN FINANCE AI */
 @media (max-width: 1200px) {
     .slider-area h2 {
