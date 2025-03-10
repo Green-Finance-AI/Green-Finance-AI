@@ -202,9 +202,38 @@ p{font-family: 'GothamSSm', sans-serif;}
     background: linear-gradient(135deg, #7a67ee, #32ff90, #1abc6e); /* Apply the same gradient */
     box-shadow: none; /* Remove the glow */
 }
+
 /* ===================================
      UI-Block-13
 ==================================== */
+.icon-class {
+    width: 42px; /* Match the size of the Font Awesome icons */
+    height: 42px; /* Match the size of the Font Awesome icons */
+    fill: #1ED873; /* Match the color of the Font Awesome icons */
+}
+
+.opacity-icon {
+    width: 120px; /* Match the size of the Font Awesome opacity icons */
+    height: 120px; /* Match the size of the Font Awesome opacity icons */
+    fill: #fff; /* Match the color of the Font Awesome opacity icons */
+    opacity: 0; /* Initially hidden */
+    position: absolute;
+    top: 30px;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: capitalize;
+    animation: scale .6s alternate infinite linear both;
+}
+
+.ui-block-13.about .about-box:hover .icon-class {
+    fill: #fff; /* Match the hover color of the Font Awesome icons */
+}
+
+.about-box:hover .opacity-icon {
+    opacity: .09; /* Show the opacity icon on hover */
+    transform: translateY(-10px); /* Match the hover transform of the Font Awesome icons */
+}
+
 .ui-block-13.about .main-title {
     position: relative;
     margin-bottom: 4rem;
@@ -212,16 +241,18 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .main-title h5 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-family: 'GothamSSm', sans-serif; /* Match custom font */
+    font-weight: 200; /* Match custom font weight */
     margin-bottom: 1.1rem;
-    color: #1f1f1f;
+    color: #1ED873; /* Match custom color */
+    font-size: 16px;
 }
 
 .ui-block-13.about .main-title h2 {
     text-transform: capitalize;
-    font-weight: 300;
-    color: #1f1f1f;
+    font-weight: normal; /* Match custom font weight */
+    font-family: 'HandelGothicBT', sans-serif; /* Match custom font */
+    color: #ffffff; /* Match custom color */
     line-height: 1.2;
     max-width: 650px;
     margin-bottom: 1.5rem;
@@ -232,6 +263,13 @@ p{font-family: 'GothamSSm', sans-serif;}
 .ui-block-13.about .main-title p {
     max-width: 720px;
     margin: 0 auto;
+    font-family: 'GothamSSm', sans-serif; /* Match custom font */
+    font-size: 16px; /* Match custom font size */
+    color: #ffffff; /* Match custom color */
+    opacity: 0.7; /* Match custom opacity */
+    font-weight: 300; /* Match custom font weight */
+    line-height: 26px; /* Match custom line height */
+    letter-spacing: 0.5px; /* Match custom letter spacing */
 }
 
 .ui-block-13.about .main-title.style-two h5 {
@@ -240,35 +278,35 @@ p{font-family: 'GothamSSm', sans-serif;}
 
 .ui-block-13.about .main-title.style-two h2 {
     text-transform: initial;
-    font-size: 37px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 400;
     max-width: 720px;
 }
 
 .ui-block-13.about .main-title.style-two p {
-    color: #1f1f1f;
+    color: #ffffff; /* Match custom color */
     max-width: 720px;
 }
 
 .ui-block-13.about .about-box {
-    border-radius: 5px;
+    border-radius: 10px; /* Match custom border radius */
     padding: 50px 15px 50px;
-    background: #ffffff;
+    background: #181a1f; /* Match custom background color */
     text-align: center;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
     box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
-    transition: ease-in-out 0.3s;
+    /* transition: ease-in-out 0.3s; */
 }
 
 .ui-block-13.about .about-box:hover {
-    background: #28a745;
+    background: #1ED873; /* Match custom hover background color */
     -webkit-box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
     box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
 }
 
 .ui-block-13.about .about-box .about-main-icon i {
-    color: #0284d0;
+    color: #1ED873;
     font-size: 40px;
     transform: translateY(0);
     transition: ease-in-out 0.3s;
@@ -279,14 +317,15 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .about-box h5 {
-    font-weight: 200;
-    color: #1f1f1f;
-    transition: ease-in-out 0.3s;
+    font-weight: 200; /* Match custom font weight */
+    font-family: 'GothamSSm', sans-serif; /* Match custom font */
+    color: #ffffff; /* Match custom color */
+    /* transition: ease-in-out 0.3s; */
 }
 
 .ui-block-13.about .about-box:hover i, .ui-block-13.about .about-box:hover h5 {
     color: #fff;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0s;
 }
 
 .ui-block-13.about .about-opacity-icon {
@@ -297,7 +336,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 
 .ui-block-13.about .about-opacity-icon i {
     position: absolute;
-    color: #28a745;
+    color: #1ED873; /* Match custom color */
     top: 30px;
     font-size: 120px;
     font-weight: 800;
@@ -321,7 +360,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .about-box.active {
-    background: #28a745;
+    background: #1ED873; /* Match custom active background color */
     -webkit-box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
     box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
 }
@@ -335,17 +374,17 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .about-box.active:hover {
-    background: #fff;
+    background: #23262d; /* Match custom hover background color */
     -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
     box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
 }
 
 .ui-block-13.about .about-box.active:hover i{
-    color: #0284d0;
+    color: #1ED873;
 }
 
 .ui-block-13.about .about-box.active:hover h5 {
-    color: #1f1f1f;
+    color: #ffffff; /* Match custom color */
 }
 
 .ui-block-13.about .about-box.active:hover .about-opacity-icon i {
@@ -353,17 +392,17 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .about-box.active.about-box-green {
-    background: #fff;
+    background: #23262d; /* Match custom background color */
     -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
     box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
 }
 
 .ui-block-13.about .about-box.active.about-box-green i {
-    color: #0284d0;
+    color: #1ED873;
 }
 
 .ui-block-13.about .about-box.active.about-box-green h5 {
-    color: #1f1f1f;
+    color: #ffffff; /* Match custom color */
 }
 
 .ui-block-13.about .about-box.active.about-box-green .about-opacity-icon i {
@@ -371,7 +410,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .about-box.active.about-box-green:hover {
-    background: #28a745;
+    background: #1ED873; /* Match custom hover background color */
 }
 
 .ui-block-13.about .about-box.active.about-box-green:hover i {
@@ -387,7 +426,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about h1, .ui-block-13.about h2, .ui-block-13.about h3, .ui-block-13.about h4, .ui-block-13.about h5, .ui-block-13.about h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'HandelGothicBT', sans-serif; /* Match custom font */
 }
 
 .ui-block-13.about h5 {
@@ -429,7 +468,7 @@ p{font-family: 'GothamSSm', sans-serif;}
     left: -101%;
     width: 101%;
     height: 100%;
-    background: #0284d0;
+    background: #1ED873;
     z-index: -1;
     top: 0;
     -webkit-transition: all 0.7s;
@@ -449,12 +488,12 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 
 .ui-block-13.about .btn-blue.btn-scale:before {
-    background: #28a745;
+    background: #1ED873; /* Match custom background color */
 }
 
 .ui-block-13.about .btn-blue {
-    border-color: #0284d0;
-    background-color: #0284d0;
+    border-color: #1ED873;
+    background-color: #1ED873;
     color: #ffffff;
 }
 
