@@ -53,7 +53,7 @@ p{font-family: 'GothamSSm', sans-serif;}
 }
 .side-nav .navbar-nav .nav-link {
     font-weight: 200;
-    font-family: 'GothamSSm' sans-serif !important;
+    font-family: 'GothamSSm', sans-serif;
 }
 .heading-area .heading {
     font-weight: normal;
