@@ -34,6 +34,9 @@
 /* ===================================
    Typography changes
 ====================================== */
+body {font-family: 'GothamSSm', sans-serif; font-size: 16px; color: #ffffff; background-color: #23262d; font-weight:normal; line-height:25px; width: 100%; overflow-x: hidden;}
+p{font-family: 'GothamSSm', sans-serif;}
+
 .slider-area h2 {
     font-weight: normal;
     font-family: 'HandelGothicBT', sans-serif;
@@ -68,6 +71,27 @@
     font-weight: 200;
     font-family: 'GothamSSm', sans-serif;
     color: #1ED873;
+}
+.about .main-title p {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.7;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-family: 'GothamSSm', sans-serif;
+}
+.about ul li {
+    font-size: 16px;
+    display: flex;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 30px;
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+    font-family: 'GothamSSm', sans-serif;
 }
 .pricing .price-item {
     border-radius: 10px;
