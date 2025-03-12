@@ -257,7 +257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Start Pricing -->
 <section class="pricing bg-black" id="pricing">
     <div class="container">
-        // Heading
+
         <div class="row text-center">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
                 <span class="sub-heading text-yellow">Designed to meet your objectives</span>
@@ -266,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="row">
-            // Price 1
+
             <div class="col-12 col-lg-4 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                 <div class="price-item text-center">
                     <div class="price_header">
@@ -287,7 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     data-cal-config='{"layout":"month_view"}'>Book Now</a>
                 </div>
             </div>
-            // Price 2
+
             <div class="col-12 col-lg-4 wow slideInUp" data-wow-duration="1s" data-wow-delay=".6s">
                 <div class="price-item text-center price-margin">
                     <div class="price_header">
@@ -308,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     data-cal-config='{"layout":"month_view"}'>Book Now</a>
                 </div>
             </div>
-            // Price 3
+
             <div class="col-12 col-lg-4 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
                 <div class="price-item text-center">
                     <div class="price_header">
@@ -334,7 +334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Start Contact -->
 <section id="contact">
     <div class="container">
-        // Heading
+
         <div class="row text-center mb-5">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
                 <span class="sub-heading text-yellow">Let's design unique solutions for your technical needs</span>
@@ -389,7 +389,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer class="footer">
     <div class="container">
         <div class="row align-items-center">
-            // Social
+
             <div class="col-12">
                 <div class="footer-social text-center">
                     <ul class="list-unstyled">
@@ -399,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </ul>
                 </div>
             </div>
-            // Text
+
             <div class="col-12 text-center mt-3">
                 <p class="company-about fadeIn">&copy; 2025 Green Finance AI. A company by 
                     <img src="dark-creative/img/future-forward-ventures-logo.png" alt="Future Forward Ventures" style="height: 24px; vertical-align: bottom;"> 
