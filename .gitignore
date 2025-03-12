@@ -2,5 +2,4 @@ config.php
 .well-known/
 ssh-into-cpanel.bat
 *.code-workspace
-.env
 analytics.php
