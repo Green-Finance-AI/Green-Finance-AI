@@ -395,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="list-unstyled">
                         <li><a id="footer-link" class="wow fadeInUp" href="https://github.com/Green-Finance-AI"><i aria-hidden="true" class="fab fa-github"></i><span></span></a></li>
                         <li><a id="footer-link" class="wow fadeInDown" href="https://hub.docker.com/u/alicesoto"><i aria-hidden="true" class="fab fa-docker"></i><span></span></a></li>
-                        <li><a id="footer-link" class="wow fadeInDown" href="mailto:info@greenfinanceai.com"><i aria-hidden="true" class="fa-solid fa-envelope"></i><span></span></a></li>
+                        <li><a id="footer-link" class="wow fadeInUp" href="mailto:info@greenfinanceai.com"><i aria-hidden="true" class="fa-solid fa-envelope"></i><span></span></a></li>
                     </ul>
                 </div>
             </div>
