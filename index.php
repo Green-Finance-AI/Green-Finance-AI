@@ -176,7 +176,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- <h4 class="main-font font-weight-bold text-white wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">Start Your Online and Creative</h4> -->
                     <!-- <h4 class="main-font text-white wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">Start Your Online and Creative</h4> -->
                     <h2 class="text-white my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">GREEN FINANCE AI</h2>
-                    <a href="#about" class="scroll btn btn-medium btn-yellow text-capitalize mt-3 mb-5 mb-md-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">Learn More<span></span></a>
+                    <a id="learn-more" href="#about" class="scroll btn btn-medium btn-yellow text-capitalize mt-3 mb-5 mb-md-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">Learn More<span></span></a>
                 </div>
             </div>
         </div>
