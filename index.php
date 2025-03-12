@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
             
-            <a href="#pricing" class="scroll btn btn-medium btn-margin btn-yellow d-none d-lg-block">Book your free consultation today</a>
+            <a id="call-to-action" href="#pricing" class="scroll btn btn-medium btn-margin btn-yellow d-none d-lg-block">Book your free consultation today</a>
 
             <!-- <div class="banner-icons mt-2 mr-2"> -->
                 <!-- <a href="#"><i class="lab la-facebook-f"></i></a>
@@ -280,7 +280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>Identify goals and challenges</li>
                         <li>No obligation, just insight</li>
                     </ul>
-                    <a role="button"
+                    <a id="book-free-consult" role="button"
                     class="scroll btn btn-medium btn-rounded btn-trans btn-margin" 
                     data-cal-link="green-finance-ai/free-consultation"
                     data-cal-namespace="free-consultation"
@@ -301,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>Document review</li>
                         <li>Coding & implementation</li>
                     </ul>
-                    <a role="button"
+                    <a id="book-expert-session" role="button"
                     class="scroll btn btn-medium btn-rounded btn-trans btn-margin" 
                     data-cal-link="green-finance-ai/expert-session"
                     data-cal-namespace="expert-session"
@@ -322,7 +322,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>End-to-end project support</li>
                         <li>Tailored analytics solutions</li>
                     </ul>
-                    <a href="#contact" class="scroll btn btn-medium btn-rounded btn-trans btn-margin">Contact For Pricing</a>
+                    <a id="book-request-quote" href="#contact" class="scroll btn btn-medium btn-rounded btn-trans btn-margin">Contact For Pricing</a>
                 </div>
             </div>
         </div>
