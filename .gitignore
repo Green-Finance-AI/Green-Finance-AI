@@ -3,3 +3,4 @@ config.php
 ssh-into-cpanel.bat
 *.code-workspace
 analytics.php
+_site
