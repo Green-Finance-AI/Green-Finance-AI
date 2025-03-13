@@ -31,6 +31,13 @@
 .envelope-text-hvr:hover{color:#00D178 !important;}
 .linkedin-text-hvr:hover{color:#0A66C2 !important;}
 
+.logo-default {
+    height: 60px; /* Adjust the height to fit the navbar */
+    max-height: 100%; /* Ensure it scales proportionally */
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing */
+}
+
 /* ===================================
    Typography changes
 ====================================== */
