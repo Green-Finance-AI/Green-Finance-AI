@@ -31,7 +31,10 @@
         <!-- End Google Tag Manager -->
 
     <!-- Favicon -->
-    <!-- <link href="vendor/img/favicon.ico" rel="icon"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="dark-creative/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dark-creative/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dark-creative/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="dark-creative/img/favicon/site.webmanifest">
     <!-- Bundle -->
     <link rel="stylesheet" href="vendor/css/bundle.min.css">
     <link rel="stylesheet" href="vendor/css/elements.css">
