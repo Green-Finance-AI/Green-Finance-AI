@@ -179,7 +179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- <h4 class="main-font text-white wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">Start Your Online and Creative</h4> -->
                     <!-- <h2 class="text-white my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">GREEN FINANCE AI</h2> -->
                     <img src="dark-creative/img/Green-Finance-AI-brand-white.png" alt="Green Finance AI" class="brand-image my-3 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="1s">
-                    <a id="learn-more" href="#about" class="scroll btn btn-medium btn-yellow text-capitalize mt-3 mb-5 mb-md-0 wow slideInUp" data-wow-duration="0.3s" data-wow-delay="1.8s">Learn More<span></span></a>
+                    <a id="learn-more" href="#about" class="scroll btn btn-medium btn-yellow text-capitalize mt-3 mb-5 mb-md-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">Learn More<span></span></a>
                 </div>
             </div>
         </div>
