@@ -202,7 +202,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Green Finance AI provides advanced data science, machine learning, and full-stack development services with a focus on delivering real-world business impact. We specialize in transforming complex data into actionable insights through robust, end-to-end solutions that integrate seamlessly into your operations.
                         </p>
                         <p>
-                            Our expertise spans the entire data pipeline—from data engineering and model development to deploying scalable applications on virtual machines and cloud platforms. With a solid foundation in scientific programming and a proven ability to bridge the gap between technical complexity and strategic decision-making, Green Finance AI empowers organizations to thrive in a data-driven world.
+                            Our expertise spans the entire data pipeline, from data engineering and model development to deploying scalable applications on virtual machines and cloud platforms. With a solid foundation in scientific programming and a proven ability to bridge the gap between technical complexity and strategic decision-making, Green Finance AI empowers organizations to thrive in a data-driven world.
                         </p>
                     </div>
                 </div>
