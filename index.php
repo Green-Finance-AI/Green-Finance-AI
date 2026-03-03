@@ -258,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- Start Pricing -->
-<section class="pricing" id="pricing">
+<section class="pricing bg-black" id="pricing">
     <div class="container">
 
         <div class="row text-center">
