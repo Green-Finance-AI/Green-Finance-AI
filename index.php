@@ -195,7 +195,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="main-title style-two d-flex justify-content-md-around align-items-center flex-column flex-md-row text-center text-md-left wow fadeIn" data-wow-delay="300ms">
                     <div class="mb-4 mb-md-0">
                         <h5> About Green Finance AI </h5>
-                        <!-- <span class="sub-heading text-yellow">About Green Finance AI</span> -->
                         <h2> Delivering Technical Excellence and Business Insight </h2>
                     </div>
                     <div class="ml-md-4 pl-md-2">
@@ -258,47 +257,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<!-- Start AI Evaluation -->
-<section class="ai-evaluation" id="ai-evaluation">
-    <div class="container">
-
-        <div class="row text-center mb-4">
-            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
-                <h5>Frontier AI Model Evaluation</h5>
-                <h3 class="heading text-center">AI Evaluation and Adversarial Testing</h3>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-lg-10 offset-lg-1 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                <p class="ai-eval-body mb-4">
-                    Green Finance AI provides specialist expertise in evaluating large language models (LLMs) across quantitative and analytical domains. Our work focuses on adversarial prompt design, expert evaluation of model reasoning, and systematic identification of failure modes in AI systems handling econometrics, statistics, causal inference, and quantitative social science.
-                </p>
-                <p class="ai-eval-body mb-5">
-                    With over two years of hands-on experience contributing to reinforcement learning from human feedback (RLHF) pipelines for frontier language models, we bring deep domain knowledge and PhD-level rigor to the evaluation of AI systems that must reason about complex quantitative methods. We partner with leading AI companies to stress-test model outputs, design expert evaluation rubrics, and improve the reliability of LLM-generated analysis in high-stakes decision-making contexts.
-                </p>
-                <div class="ai-eval-tags text-center">
-                    <span class="ai-eval-tag">Adversarial Prompt Engineering</span>
-                    <span class="ai-eval-tag">Expert Model Assessment</span>
-                    <span class="ai-eval-tag">RLHF and Alignment</span>
-                    <span class="ai-eval-tag">Econometrics &amp; Causal Inference</span>
-                    <span class="ai-eval-tag">Statistical Reasoning Evaluation</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!-- End AI Evaluation -->
-
-
 <!-- Start Pricing -->
 <section class="pricing bg-black" id="pricing">
     <div class="container">
 
         <div class="row text-center">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
-                <h5>Designed to meet your objectives</h5>
+                <span class="sub-heading text-yellow">Designed to meet your objectives</span>
                 <h3 class="heading text-center padding-bottom-half">Choose the Right Service</h3>
             </div>
         </div>
@@ -375,7 +340,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="row text-center mb-5">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area" data-wow-duration="1s" data-wow-delay=".1s">
-                <h5>Let's design unique solutions for your technical needs</h5>
+                <span class="sub-heading text-yellow">Let's design unique solutions for your technical needs</span>
                 <h3 class="heading text-center">Get in Touch Today</h3>
             </div>
         </div>
