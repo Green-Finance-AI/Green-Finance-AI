@@ -257,6 +257,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
+<!-- Start AI Evaluation -->
+<section class="ui-block-13 about" id="ai-evaluation">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="ai-eval-card wow fadeIn" data-wow-duration="1s" data-wow-delay="300ms">
+                    <span class="sub-heading text-yellow">Frontier AI Model Evaluation</span>
+                    <h2 style="margin-bottom: 1.5rem;">AI Evaluation and Adversarial Testing</h2>
+                    <p>
+                        Green Finance AI provides specialist expertise in evaluating large language models (LLMs) across quantitative and analytical domains. Our work focuses on adversarial prompt design, expert evaluation of model reasoning, and systematic identification of failure modes in AI systems handling econometrics, statistics, causal inference, and quantitative social science.
+                    </p>
+                    <p style="margin-top: 1rem;">
+                        With over two years of hands-on experience contributing to reinforcement learning from human feedback (RLHF) pipelines for frontier language models, we bring deep domain knowledge and PhD-level rigor to the evaluation of AI systems that must reason about complex quantitative methods. We partner with leading AI companies to stress-test model outputs, design expert evaluation rubrics, and improve the reliability of LLM-generated analysis in high-stakes decision-making contexts.
+                    </p>
+                    <div class="ai-eval-pills">
+                        <span class="ai-eval-pill">Adversarial Prompt Engineering</span>
+                        <span class="ai-eval-pill">Expert Model Assessment</span>
+                        <span class="ai-eval-pill">RLHF and Alignment</span>
+                        <span class="ai-eval-pill">Econometrics &amp; Causal Inference</span>
+                        <span class="ai-eval-pill">Statistical Reasoning Evaluation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End AI Evaluation -->
+
+
 <!-- Start Pricing -->
 <section class="pricing bg-black" id="pricing">
     <div class="container">
