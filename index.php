@@ -194,7 +194,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="main-title style-two d-flex justify-content-md-around align-items-center flex-column flex-md-row text-center text-md-left wow fadeIn" data-wow-delay="300ms">
                     <div class="mb-4 mb-md-0">
-                        <h5> About Green Finance AI </h5>
+                        <span class="sub-heading text-yellow"> About Green Finance AI </span>
                         <h2> Delivering Technical Excellence and Business Insight </h2>
                     </div>
                     <div class="ml-md-4 pl-md-2">
