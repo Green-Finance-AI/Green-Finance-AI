@@ -103,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <!-- <a href="#"><i class="lab la-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-x-twitter"></i></a> -->
                 <!-- <a href="https://github.com/Green-Finance-AI"><i class="fab fa-github"></i></a>
-                <a href="https://hub.docker.com/u/alicesoto"><i class="fab fa-docker"></i></a>
+                <a href="https://hub.docker.com/u/walice"><i class="fab fa-docker"></i></a>
                 <a href="https://www.linkedin.com/in/alicelepissier/"><i class="lab la-linkedin-in"></i></a>
                 <a href="mailto:info@greenfinanceai.com"><i class="fa-solid fa-envelope"></i></a> -->
                 <!-- <a href="#"><i class="lab la-instagram"></i></a> -->
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="side-footer w-100">
                 <ul class="social-icons-simple">
                     <li><a id="side-footer-link" class="github-text-hvr" href="https://github.com/Green-Finance-AI"><i class="fab fa-github"></i></a></li>
-                    <li><a id="side-footer-link" class="docker-text-hvr" href="https://hub.docker.com/u/alicesoto"><i class="fab fa-docker"></i></a></li>
+                    <li><a id="side-footer-link" class="docker-text-hvr" href="https://hub.docker.com/u/walice"><i class="fab fa-docker"></i></a></li>
                     <!-- <li><a class="linkedin-text-hvr" href="https://www.linkedin.com/in/alicelepissier/"><i class="fab fa-linkedin-in"></i></a></li> -->
                     <li><a id="side-footer-link" class="envelope-text-hvr" href="mailto:info@greenfinanceai.com"><i class="fa-solid fa-envelope"></i></a></li>
                 </ul>
@@ -426,7 +426,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="footer-social text-center">
                     <ul class="list-unstyled">
                         <li><a id="footer-link" class="wow fadeInUp" href="https://github.com/Green-Finance-AI"><i aria-hidden="true" class="fab fa-github"></i><span></span></a></li>
-                        <li><a id="footer-link" class="wow fadeInDown" href="https://hub.docker.com/u/alicesoto"><i aria-hidden="true" class="fab fa-docker"></i><span></span></a></li>
+                        <li><a id="footer-link" class="wow fadeInDown" href="https://hub.docker.com/u/walice"><i aria-hidden="true" class="fab fa-docker"></i><span></span></a></li>
                         <li><a id="footer-link" class="wow fadeInUp" href="mailto:info@greenfinanceai.com"><i aria-hidden="true" class="fa-solid fa-envelope"></i><span></span></a></li>
                     </ul>
                 </div>
