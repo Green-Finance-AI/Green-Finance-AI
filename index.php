@@ -375,6 +375,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <form class="contact-form" id="contact-form-data" method="POST">
+            <!-- Spam protection: honeypot (bots fill, humans don't see) -->
+            <input type="text" name="website" style="display:none !important" tabindex="-1" autocomplete="off">
+            <!-- Spam protection: timestamp set by JS on page load -->
+            <input type="hidden" name="loaded_at" id="loaded_at" value="">
             <div class="row wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".5s">
 
                 <div class="col-sm-12" id="result"></div>

@@ -1,4 +1,8 @@
-// Improved Contact Form Submission with SweetAlert2
+// Spam-protected Contact Form Submission with SweetAlert2
+
+// Set timestamp when page loads (used by PHP to reject sub-3-second submissions)
+document.getElementById('loaded_at').value = Date.now();
+
 $("#contact-form-data").on('submit', function (e) {
     e.preventDefault(); // Prevent default form submission
 
@@ -19,21 +23,22 @@ $("#contact-form-data").on('submit', function (e) {
             type: 'POST',
             url: 'send_email.php',
             data: $(this).serialize(),
-            dataType: 'html',
+            dataType: 'json',
             success: function (response) {
-                if (response.toLowerCase().includes("success")) {
+                if (response.type === 'success') {
                     Swal.fire({
                         icon: 'success',
                         title: 'Message Sent!',
                         text: 'Thank you for reaching out. We will get back to you soon.',
                     });
-                    // Reset the form
+                    // Reset the form (but keep the timestamp and honeypot)
                     $('#contact-form-data')[0].reset();
+                    document.getElementById('loaded_at').value = Date.now();
                 } else {
                     Swal.fire({
                         icon: 'error',
                         title: 'Oops...',
-                        text: 'There was a problem sending your message. Please try again.',
+                        text: response.text || 'There was a problem sending your message. Please try again.',
                     });
                 }
                 $(".contact_btn i").addClass('d-none'); // Hide loading spinner
