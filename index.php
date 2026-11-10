@@ -333,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="price-item text-center">
                     <div class="price_header">
                         <span class="price_header_text underline">Custom Projects</span>
-                        <p class="price_header_content">Ideal for long-term or large-scale projects.</p>
+                        <p class="price_header_content">For long-term or large-scale work.</p>
                     </div>
                     <p class="actual_price">Quote</p>
                     <ul class="price-list">
