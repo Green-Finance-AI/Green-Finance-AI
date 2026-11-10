@@ -2,16 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $ga_id; ?>"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', '<?php echo $ga_id; ?>');
-    </script>
-
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -22,13 +12,32 @@
     <!-- Page Title -->
     <title>Green Finance AI</title>
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Google Tag Manager, with a per-browser opt-out.
+         Open https://greenfinanceai.com/?noanalytics once and that browser stops loading GTM
+         (a cookie on the bare domain covers both www and the apex). Undo with ?analytics=on.
+         The GA4 Google tag fires from inside this GTM container, so there is no separate gtag.js snippet. -->
+    <script>
+    (function(){
+        // State lives in a cookie on the bare domain (shared by www and apex): 1 = tracking off, 0 = explicitly back on.
+        // localStorage is a longer-lived backup for the same browser. Ordinary visitors get neither.
+        var q = location.search + location.hash, k = 'noanalytics', c = null, ls = null;
+        var dom = location.hostname.replace(/^www\./, '');
+        function cookie(v){ try { document.cookie = k + '=' + v + '; path=/; domain=' + dom + '; max-age=34560000; SameSite=Lax'; } catch (e) {} }
+        function local(v){ try { if (v) { localStorage.setItem(k, v); } else { localStorage.removeItem(k); } } catch (e) {} }
+        try { c = (document.cookie.match(/(?:^|;\s*)noanalytics=([01])/) || [])[1] || null; } catch (e) {}
+        try { ls = localStorage.getItem(k); } catch (e) {}
+        var on = /[?&#]analytics=on/.test(q);
+        var off = !on && (/noanalytics/.test(q) || c === '1' || (c === null && ls === '1'));
+        if (off) { cookie('1'); local('1'); return; }
+        if (on || c === '1' || ls === '1') { cookie('0'); local(''); }
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','<?php echo $gtm_id; ?>');</script>
-        <!-- End Google Tag Manager -->
+        })(window,document,'script','dataLayer','<?php echo $gtm_id; ?>');
+    })();
+    </script>
+    <!-- End Google Tag Manager -->
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="dark-creative/img/favicon/apple-touch-icon.png">
