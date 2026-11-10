@@ -312,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="price-item text-center">
                     <div class="price_header">
                         <span class="price_header_text underline">Free Consultation</span>
-                        <p class="price_header_content">Discover if our services align with your needs.</p>
+                        <p class="price_header_content">Find out if we are the right fit.</p>
                     </div>
                     <p class="actual_price">Free</p>
                     <ul class="price-list">
