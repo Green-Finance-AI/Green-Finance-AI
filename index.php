@@ -308,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="row">
 
-            <div class="col-12 col-lg-4 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-12 col-lg-5 offset-lg-1 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                 <div class="price-item text-center">
                     <div class="price_header">
                         <span class="price_header_text underline">Free Consultation</span>
@@ -329,28 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
 
-            <div class="col-12 col-lg-4 wow slideInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                <div class="price-item text-center price-margin">
-                    <div class="price_header">
-                        <span class="price_header_text underline">Expert Session</span>
-                        <p class="price_header_content">Get expert advice on specific challenges.</p>
-                    </div>
-                    <p class="actual_price"><sup class="dollar">$</sup>200<span class="small_font">/Hour</span></p>
-                    <ul class="price-list">
-                        <li>Statistics & data science</li>
-                        <li>Modeling assumptions</li>
-                        <li>Document review</li>
-                        <li>Coding & implementation</li>
-                    </ul>
-                    <a id="book-expert-session" role="button"
-                    class="scroll btn btn-medium btn-rounded btn-trans btn-margin" 
-                    data-cal-link="green-finance-ai/expert-session"
-                    data-cal-namespace="expert-session"
-                    data-cal-config='{"layout":"month_view"}'>Book Now</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-lg-4 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="col-12 col-lg-5 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
                 <div class="price-item text-center">
                     <div class="price_header">
                         <span class="price_header_text underline">Custom Projects</span>
@@ -471,23 +450,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     Cal.ns["free-consultation"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#292929"},"dark":{"cal-brand":"#fafafa"}},"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
 <!-- Cal element-click embed code ends -->
-
-
-<!-- Cal element-click embed code begins -->
-<script src="https://app.cal.com/embed/embed.js" async></script>
-<script type="text/javascript">
-    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-  Cal("init", "expert-session", {origin:"https://cal.com"});
-  
-    // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
-    // `data-cal-link="green-finance-ai/expert-session"`
-    // data-cal-namespace="expert-session"
-    // `data-cal-config='{"layout":"month_view"}'`
-  
-    Cal.ns["expert-session"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#292929"},"dark":{"cal-brand":"#fafafa"}},"hideEventTypeDetails":false,"layout":"month_view"});
-</script>
-<!-- Cal element-click embed code ends -->
-
 
 <!-- Start Scroll Top -->
 <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
