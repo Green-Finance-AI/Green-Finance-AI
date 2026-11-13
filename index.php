@@ -8,7 +8,7 @@
     <!-- Author -->
     <meta name="author" content="Green Finance AI">
     <!-- Description -->
-    <meta name="description" content="Expert data science and advanced analytics consulting. Empowering organizations with data-driven insights and bespoke consulting services, offering full-stack data science and end-to-end data solutions.">
+    <meta name="description" content="Data science, agentic AI workflows, and analytics consulting. We build and integrate AI agents, models, and full-stack data applications inside your systems.">
     <!-- Page Title -->
     <title>Green Finance AI</title>
 
@@ -101,6 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="collapse navbar-collapse" id="megaone">
                 <div class="navbar-nav  ml-auto mr-auto">
                     <a id="navbar-home" class="nav-link scroll line" href="#home">Home</a>
+                    <a id="navbar-agentic" class="nav-link scroll line" href="#agentic">Agentic AI</a>
                     <a id="navbar-training" class="nav-link line" href="https://training.greenfinanceai.com" target="_blank">Training</a>
                     <a id="navbar-contact" class="nav-link scroll line" href="#contact">Contact</a>
                 </div>
@@ -133,6 +134,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a id="sidenav-home" class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="sidenav-agentic" class="nav-link scroll" href="#agentic">Agentic AI</a>
                     </li>
                     <li>
                         <a id="sidenav-training" class="nav-link" href="https://training.greenfinanceai.com" target="_blank">Training</a>
@@ -188,6 +192,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- <h4 class="main-font text-white wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">Start Your Online and Creative</h4> -->
                     <!-- <h2 class="text-white my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">GREEN FINANCE AI</h2> -->
                     <img src="dark-creative/img/Green-Finance-AI-brand-white.png" alt="Green Finance AI" class="brand-image my-3 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <p class="hero-line wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.3s">Data science and agentic AI, built into the way your team works.</p>
                     <a id="learn-more" href="#about" class="scroll btn btn-medium btn-yellow text-capitalize mt-3 mb-5 mb-md-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">Learn More<span></span></a>
                 </div>
             </div>
@@ -208,10 +213,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="ml-md-4 pl-md-2">
                         <p class="mb-4">
-                            Green Finance AI provides advanced data science, machine learning, and full-stack development services with a focus on delivering real-world business impact. We specialize in transforming complex data into actionable insights through robust, end-to-end solutions that integrate seamlessly into your operations.
+                            Green Finance AI provides data science, machine learning, agentic AI, and full-stack development services. We turn complex data into decisions, and we build the software that puts those decisions to work inside your operations.
                         </p>
                         <p>
-                            Our expertise spans the entire data pipeline, from data engineering and model development to deploying scalable applications on virtual machines and cloud platforms. With a solid foundation in scientific programming and a proven ability to bridge the gap between technical complexity and strategic decision-making, Green Finance AI empowers organizations to thrive in a data-driven world.
+                            Our work covers the whole pipeline, from data engineering and model development to deploying applications and AI agents on virtual machines and cloud platforms. We are trained in scientific programming and used to working between technical detail and strategy, so the people making decisions can trust what the analysis says.
                         </p>
                     </div>
                 </div>
@@ -264,6 +269,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </section>
+
+
+<!-- Start Agentic Workflows -->
+<section id="agentic">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-12 col-lg-5 agentic-intro">
+                <span class="sub-heading text-yellow">Agentic Workflows and Integration</span>
+                <h2>AI agents that work inside the systems you already run</h2>
+                <p>
+                    We design and build multi-agent systems: several AI agents with shared memory, coordinated around your data and your tools, with a person in the loop. We embed with your team, integrate with your systems, and ship to production in your environment.
+                </p>
+                <a id="agentic-book-consult" role="button"
+                class="btn btn-medium btn-yellow agentic-cta"
+                data-cal-link="green-finance-ai/free-consultation"
+                data-cal-namespace="free-consultation"
+                data-cal-config='{"layout":"month_view"}'>Book a free consultation</a>
+            </div>
+
+            <div class="col-12 col-lg-6 offset-lg-1">
+                <div class="agentic-run" id="agentic-run">
+                    <ol class="agentic-steps">
+                        <li class="agentic-step">
+                            <span class="agentic-node" aria-hidden="true"></span>
+                            <div class="agentic-step-text"><strong>Your data and tools</strong><span>Connected where they already live.</span></div>
+                        </li>
+                        <li class="agentic-step">
+                            <span class="agentic-node" aria-hidden="true"></span>
+                            <div class="agentic-step-text"><strong>Specialist agents</strong><span>Each with one job and its own tools.</span></div>
+                        </li>
+                        <li class="agentic-step">
+                            <span class="agentic-node" aria-hidden="true"></span>
+                            <div class="agentic-step-text"><strong>Shared memory</strong><span>What one agent learns, the others know.</span></div>
+                        </li>
+                        <li class="agentic-step">
+                            <span class="agentic-node" aria-hidden="true"></span>
+                            <div class="agentic-step-text"><strong>Orchestration</strong><span>Work is handed off and tracked.</span></div>
+                        </li>
+                        <li class="agentic-step agentic-step-human">
+                            <span class="agentic-node" aria-hidden="true"></span>
+                            <div class="agentic-step-text"><strong>Human approval</strong><span>A person signs off on what matters.</span></div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row agentic-method">
+            <div class="col-12"><div class="agentic-rule" aria-hidden="true"></div></div>
+            <div class="col-12 col-md-4 agentic-method-item">
+                <h4>Audited</h4>
+                <p>Evals, tracing, and a log of every agent action.</p>
+            </div>
+            <div class="col-12 col-md-4 agentic-method-item">
+                <h4>Reproducible</h4>
+                <p>Versioned prompts, skills, and data pipelines.</p>
+            </div>
+            <div class="col-12 col-md-4 agentic-method-item">
+                <h4>Governed</h4>
+                <p>Guardrails, scoped access, and human approval.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-9 agentic-close">
+                <p class="agentic-landing">We run our own operations on a multi-agent system. We can help you do this.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Agentic Workflows -->
 
 
 <!-- Start AI Evaluation -->
@@ -337,10 +414,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <p class="actual_price">Quote</p>
                     <ul class="price-list">
+                        <li>Agentic workflows and integration</li>
                         <li>Build scientific apps</li>
                         <li>Economic and statistical models</li>
                         <li>End-to-end project support</li>
-                        <li>Tailored analytics solutions</li>
                     </ul>
                     <a id="book-request-quote" href="#contact" class="scroll btn btn-medium btn-rounded btn-trans btn-margin">Contact For Pricing</a>
                 </div>
@@ -450,6 +527,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     Cal.ns["free-consultation"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#292929"},"dark":{"cal-brand":"#fafafa"}},"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
 <!-- Cal element-click embed code ends -->
+
+<!-- Agentic run: plays through once when scrolled into view -->
+<script>
+(function () {
+    var run = document.getElementById('agentic-run');
+    if (!run || !('IntersectionObserver' in window)) { return; }
+    run.classList.add('is-armed');
+    var io = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) { run.classList.add('is-running'); io.disconnect(); }
+    }, { threshold: 0.35 });
+    io.observe(run);
+})();
+</script>
 
 <!-- Start Scroll Top -->
 <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
