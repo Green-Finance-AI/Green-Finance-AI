@@ -8,9 +8,20 @@
     <!-- Author -->
     <meta name="author" content="Green Finance AI">
     <!-- Description -->
-    <meta name="description" content="Data science, agentic AI workflows, and analytics consulting. We build and integrate AI agents, models, and full-stack data applications inside your systems.">
+    <meta name="description" content="Data science, econometrics, and agentic AI. We build multi-agent AI systems inside your environment and test whether their quantitative work is right.">
     <!-- Page Title -->
-    <title>Green Finance AI</title>
+    <title>Green Finance AI | Econometrics, Data Science, and Agentic AI</title>
+    <!-- Link preview (LinkedIn, Slack, iMessage, X) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Green Finance AI">
+    <meta property="og:url" content="https://greenfinanceai.com/">
+    <meta property="og:title" content="Green Finance AI | Econometrics, Data Science, and Agentic AI">
+    <meta property="og:description" content="We build multi-agent AI systems and test whether their quantitative work is right. Data science, econometrics, and agentic AI.">
+    <meta property="og:image" content="https://greenfinanceai.com/dark-creative/img/Green-Finance-AI-link-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Green Finance AI">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- Google Tag Manager, with a per-browser opt-out.
          Open https://greenfinanceai.com/?noanalytics once and that browser stops loading GTM
@@ -250,11 +261,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-3 col-sm-12 mb-xs-2rem">
                 <div class="about-box center-block wow zoomIn" data-wow-delay="600ms">
-                    <div class="about-opacity-icon"> <i class="fa fa-briefcase" aria-hidden="true"></i> </div>
+                    <div class="about-opacity-icon"> <i class="fa fa-diagram-project" aria-hidden="true"></i> </div>
                     <div class="about-main-icon pb-4">
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <i class="fa fa-diagram-project" aria-hidden="true"></i>
                     </div>
-                    <h5 class="mb-0">Business Intelligence</h5>
+                    <h5 class="mb-0">Agentic AI &amp; Integration</h5>
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
@@ -352,10 +363,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class="sub-heading text-yellow">Frontier AI Model Evaluation</span>
                     <h2 style="margin-bottom: 1.5rem;">AI Evaluation and Adversarial Testing</h2>
                     <p>
-                        Green Finance AI provides specialist expertise in evaluating large language models (LLMs) across quantitative and analytical domains. Our work focuses on adversarial prompt design, expert evaluation of model reasoning, and systematic identification of failure modes in AI systems handling econometrics, statistics, causal inference, and quantitative social science.
-                    </p>
-                    <p style="margin-top: 1rem;">
-                        With over two years of hands-on experience contributing to reinforcement learning from human feedback (RLHF) pipelines for frontier language models, we bring deep domain knowledge and PhD-level rigor to the evaluation of AI systems that must reason about complex quantitative methods. We partner with leading AI companies to stress-test model outputs, design expert evaluation rubrics, and improve the reliability of LLM-generated analysis in high-stakes decision-making contexts.
+                        An agent that does analysis is only useful if the analysis is right. We have spent over two years evaluating frontier language models for leading AI companies on econometrics, statistics, and causal inference: adversarial prompts, expert rubrics, and systematic failure analysis. The agents we build are held to the same tests.
                     </p>
                     <div class="ai-eval-pills">
                         <span class="ai-eval-pill">Adversarial Prompt Engineering</span>
